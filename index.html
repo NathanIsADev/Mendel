@@ -106,7 +106,7 @@
       </aside>
     </div>
 
-    <div class="footer">Kurz: "Gene verhalten sich unabhängig" → hier: Mutter & Vater geben je eine Karte, daraus entsteht das Baby. (Mehr nicht nötig.)</div>
+    <div class="footer">Kurz: "Gene verhalten sich unabhängig" → hier: Mutter & Vater geben je eine Karte, daraus entsteht die Kombination. (Mehr nicht nötig.)</div>
   </div>
 
   <!-- confetti container -->
@@ -404,7 +404,7 @@
   confirmBtn.addEventListener('click', ()=>{ if(!running) { info.textContent='Starte zuerst ein neues Spiel.'; return; } submitChoice(); });
   skipBtn.addEventListener('click', ()=>{ if(!running){ info.textContent='Starte zuerst ein neues Spiel.'; return; } skipTurn(); });
   document.getElementById('restart').addEventListener('click', ()=>{ location.reload(); });
-  helpBtn.addEventListener('click', ()=>{ alert('Kurz: Mutter und Vater geben je eine Karte (eine Eigenschaft von Farbe & Form). Aus beiden Karten entsteht ein Baby. Ziel: Triff die gesuchte Kombination. Keine Fachwörter — nur Spaß.'); });
+  helpBtn.addEventListener('click', ()=>{ alert('Kurz: Mutter und Vater geben je eine Karte (eine Eigenschaft von Farbe & Form). Aus beiden Karten entsteht eine Kombination. Ziel: Triff die gesuchte Kombination.'); });
 
   // init small demo
   function initDemo(){
@@ -444,6 +444,7 @@
 </script>
 </body>
 </html>
+
 
 
 
